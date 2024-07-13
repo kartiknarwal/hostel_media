@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { UserData } from "./UserContext";
 const SocketContext =createContext();
 
-const EndPoint = "http://localhost:7000";
+const EndPoint = "https://hostel-media.onrender.com";
 
 export const SocketContextProvider =({children})=>{
     const [socket,setSocket] =useState(null);
